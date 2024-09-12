@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+body {
+  width: 100%;
+  height: 100vh;
+  -ms-overflow-style: none;
+}
+
+@layer utilities {
+  .side-pad {
+    @apply px-4 md:px-10 lg:px-16;
+  }
+}

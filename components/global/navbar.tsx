@@ -4,7 +4,7 @@ import { Logo } from '../interface';
 
 const Navbar = () => {
   return (
-    <nav className="side-pad fixed top-0 left-0 right-0 bottom-0 w-full h-20 md:h-24 lg:h-28">
+    <nav className="side-pad z-50 fixed top-0 left-0 right-0 bottom-0 w-full h-20 md:h-24 lg:h-28">
       <div className="w-full h-full flex items-center justify-between">
         <Logo />
         <div className="cursor-pointer">

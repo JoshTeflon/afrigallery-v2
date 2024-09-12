@@ -38,9 +38,7 @@ export default function RootLayout({
     <html lang="en" className={`${josefin_sans.variable} ${jelani.variable}`}>
       <body className="side-pad max-w-screen-2xl mx-auto bg-black text-white font-josefin">
         <Navbar />
-        <div className="mt-20 md:mt-24 lg:mt-28">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   )
